@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    border-right: 2px solid #ffffff51;
+    padding-right: 40px;
+}
+
+.nav-left-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+nav>.nav-left-side>ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav>.nav-left-side>ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav>.nav-left-side>ul>li>a:hover {
+    text-decoration: underline;
+    color: #ba0cc5;
+}
+
+.nav-butt {
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* .nav-butt:hover {
+    border: 1px solid #ffffff;
+} */
+
+.main-section {
+    background-image: url(../assets/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.main-txt>h1 {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 130px;
+}
+
+.main-txt>p {
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+
+.main-butt>button {
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main-butt>button:hover {
+    border: 1px solid #ffffff;
+}
+
+.main-butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
